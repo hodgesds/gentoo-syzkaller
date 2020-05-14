@@ -39,5 +39,5 @@ src_install() {
     dobin src/${EGO_PN}/bin/syz-repro
     dobin src/${EGO_PN}/bin/syz-runtest
     dobin src/${EGO_PN}/bin/syz-upgrade
-	dobin src/${EGO_PN}/bin/linux_amd64/syz-executor
+    dobin src/${EGO_PN}/bin/linux_amd64/syz-executor
 }
